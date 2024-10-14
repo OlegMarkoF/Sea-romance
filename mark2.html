@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="res/style.css" />
+
+</head>
+
+<body class="window-mark2">
+
+  <a class="back" href="index.html">
+    <div><img src="./img/icons8-left-2-80.png" alt="стрелка назад"></div>
+    <!-- <p>Назад</p> -->
+  </a>
+
+  <h1 class="lbl_head">Клуб знаменитых путешественников</h1>
+
+  <div class="list_name list_name_mark2">
+    <ul>
+      <li><a class="human" onclick="zpop('#pop1')">Иван Гончаров</a></li>
+      <li><a class="human" onclick="zpop('#pop2')">Константин Станюкович</a></li>
+    </ul>
+  </div>
+
+  <div class="pop" id="pop1">
+    <div class="cols">
+      <div class="cols-content">
+        <a onClick="zpophide()" class="close">✗</a>
+        <div class="author">
+          <div class="appearance">
+            <img src="img/authors/Гончаров.jfif" alt="автор">
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="./img/books/Гончаров_Фрегат Паллада.jpg" alt="книга">
+            <p>«Фрегат «Паллада» (1858)</p>
+          </div>
+        </div>
+
+        <!-- Всплывающий контент для модального окна -->
+        <p class="biography" style="display: none;">
+          <span>1812-1891</span>
+
+          <span class="quote">
+            «Мне хотелось познакомиться с океаном. Я уже от поэтов знал, что он "безбрежен, мрачен, угрюм, беспределен,
+            неизмерим и неукротим", а учитель географии сказал некогда, что он просто – Атлантический»
+          </span>
+
+          Происходил из купеческой семьи. Главным воспитателем после смерти отца был отставной моряк Николай Трегубов.
+          После университета Гончаров подрабатывал как секретарем, так и домашним учителем, в том числе преподавал
+          русскую словесность наследнику престола – Николаю Александровичу, сыну Александра II.
+        </p>
+
+        <p class="descbook" style="display: none;">
+          В 1852 году Иван Гончаров в качестве секретаря начальника экспедиции на фрегате «Паллада» отправился в большое
+          путешествие. Маршрут поражал масштабом: Великобритания, мыс Доброй Надежды, Индокитай, Япония, Китай, остров
+          Рюкю, Филиппины и обратный путь через Сибирь. С первого дня он вел подробнейший дневник, который стал
+          неисчерпаемым вдохновением для последующих писателей-путешественников.
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="pop" id="pop2">
+    <div class="cols">
+      <div class="cols-content">
+        <a onClick="zpophide()" class="close">✗</a>
+        <div class="author">
+          <div class="appearance">
+            <img src="img/authors/Станюкович.jpg" alt="автор">
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="./img/books/Станюкович_Вокруг света на Коршуне.jpg" alt="книга">
+            <p>«Вокруг света на «Коршуне» (1895)</p>
+          </div>
+        </div>
+        <div class="films">
+          <div class="film">
+            <img src="./img/films/Станюкович. Вокруг света на Коршуне_1.jpg" alt="экранизация">
+            <p>«Максимка» (1953)</p>
+          </div>
+        </div>
+
+        <p class="biography" style="display: none;">
+          <span>1843-1903</span>
+
+          <span class="quote">
+            «- Позвольте вам дать добрый совет, Ашанин, послужившего моряка: старайтесь жить со всеми дружно... На
+            берегу вы поссорились и разошлись, а ведь в море уйти некуда... Морякам необходимо жить дружной семьей»
+          </span>
+
+          Считается одним из столпов жанра маринистики в русской литературе. Из семьи потомственного моряка. Был
+          отправлен отцом в кругосветное плавание, которое позже легло в основу романа.
+        </p>
+
+        <p class="descbook" style="display: none;">
+          Юный гардемарин Володя Ашанин учится морскому делу, сталкиваясь со штормами, незнакомыми землями и новыми
+          впечатлениями.
+        </p>
+
+        <div class="filmscreen" style="display: none;">
+          <div class="film-container">
+            <div class="screen"><img src="./img/films/Станюкович. Вокруг света на Коршуне_2.jpg" alt="кадр из фильма"
+                loading="lazy">
+            </div>
+            <div class="screen"><img src="./img/films/Станюкович. Вокруг света на Коршуне_3.jpg" alt="кадр из фильма"
+                loading="lazy">
+            </div>
+            <div class="screen"><img src="./img/films/Станюкович. Вокруг света на Коршуне_4.jpg" alt="кадр из фильма"
+                loading="lazy">
+            </div>
+            <!-- <div class="screen"><img src="./img/films/Станюкович. Вокруг света на Коршуне_5.jpg" alt="кадр из фильма"
+                loading="lazy">
+            </div> -->
+            <div class="screen"><img src="./img/films/Станюкович. Вокруг света на Коршуне_6.jpg" alt="кадр из фильма"
+                loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="shade" onClick="zpophide()"></div>
+
+  <!-- Модальное окно -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="screen-content">
+        <p class="modalText" width="100%"></p>
+      </div>
+      <span class="close_modal">✗</span>
+    </div>
+    <!-- <div id="caption"></div>  <- добавить подпись к фото -->
+  </div>
+
+  <script src="./scripts/scripts.js"></script>
+  <script src='http://code.jquery.com/jquery-1.10.1.min.js' type='text/javascript'></script>
+  <script src="res/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <script type='text/javascript'>
+    function zpop(id) {
+      $(id).slideDown("fast");
+      $('.shade').slideDown("fast");
+    }
+    function zpophide() {
+      $('.shade').slideUp("fast");
+      $('.pop').slideUp("fast");
+    }
+  </script>
+
+</body>
+
+</html>

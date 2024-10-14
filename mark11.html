@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="res/style.css">
+</head>
+
+<body class="window-mark11">
+
+	<a class="back" href="index.html">
+		<div><img src="./img/icons8-left-2-80.png" alt="стрелка назад"></div>
+	</a>
+
+	<h1 class="lbl_head">Рубка</h1>
+
+	<div class="list_name list_name_mark11">
+		<ul>
+			<li><a class="human" onclick="zpop('#pop1')">Юрий Крымов</a></li>
+			<li><a class="human" onclick="zpop('#pop2')">Пол Гэллико</a></li>
+			<li><a class="human" onclick="zpop('#pop3')">Леонид Соболев</a></li>
+		</ul>
+	</div>
+
+	<div class="pop" id="pop1">
+		<div class="cols">
+			<div class="cols-content">
+				<a onClick="zpophide()" class="close">✗</a>
+				<div class="author">
+					<div class="appearance">
+						<img src="img/authors/Крымов.jpg" alt="автор">
+					</div>
+				</div>
+				<div class="books">
+					<div class="book">
+						<img src="./img/books/Крымов_Танкер Дербент.jpg" alt="книга">
+						<p>«Танкер «Дербент» (1938)</p>
+					</div>
+				</div>
+				<div class="films">
+					<div class="film">
+						<img src="./img/films/Крымов. Танкер Дербент_1.jpg" alt="экранизация">
+						<p>«Танкер Дербент» (1941)</p>
+					</div>
+				</div>
+
+				<!-- Всплывающий контент для модального окна -->
+				<p class="biography" style="display: none;">
+					<span>1908-1941</span>
+					<span class="quote">
+						«-А вы любите стихи? </br>
+						- Люблю. Расскажите еще что-нибудь. Вы будете плавать, я вам завидую»
+					</span>
+					Литературный псевдоним писателя Юрия Беклемишева. Родился в семье литераторов – издателя С.Ю.
+					Копельмана и писательницы В.Е. Беклемишевой, но сам закончил физико-математический факультет
+					Московского университета. После учебы в том числе проводил испытания на судоверфях Каспийского моря.
+				</p>
+
+				<p class="descbook" style="display: none;">
+					Остросюжетный роман-катастрофа. На танкер «Дербент» набирают новую команду. Остается последнее
+					задание на сезон навигации - взять на буксир неисправное судно с нефтью.
+				</p>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Крымов. Танкер Дербент_2.jpg" alt="кадр из фильма"
+							loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Крымов. Танкер Дербент_3.jpg" alt="кадр из фильма"
+							loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Крымов. Танкер Дербент_4.jpg" alt="кадр из фильма"
+							loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Крымов. Танкер Дербент_5.jpg" alt="кадр из фильма"
+							loading="lazy">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="pop" id="pop2">
+		<div class="cols">
+			<div class="cols-content">
+				<a onClick="zpophide()" class="close">✗</a>
+				<div class="author">
+					<div class="appearance">
+						<img src="img/authors/Гэллико.jpg" alt="автор">
+					</div>
+				</div>
+				<div class="books">
+					<div class="book">
+						<img src="./img/books/Гэллико_Посейдон.JPG" alt="книга">
+						<p>«Посейдон» (1969)</p>
+					</div>
+				</div>
+				<div class="films">
+					<div class="film">
+						<img src="./img/films/Гэллико. Посейдон_1_1972.jpg" alt="экранизация">
+						<p>«Приключения «Посейдона» (1972)</p>
+					</div>
+					<div class="film">
+						<img src="./img/films/Гэллико. Посейдон_2_2005.jpg" alt="экранизация">
+						<p>«Приключения «Посейдона» (2005)</p>
+					</div>
+					<div class="film">
+						<img src="./img/films/Гэллико. Посейдон_3_2006.jpg" alt="экранизация">
+						<p>«Посейдон» (2006)</p>
+					</div>
+				</div>
+
+				<!-- Всплывающий контент для модального окна -->
+				<p class="biography" style="display: none;">
+					<span>1897-1976</span>
+					<span class="quote">
+						«Непокоримых вершин не бывает – это давно доказано»
+					</span>
+					Американский писатель. Был известен как один из лучших спортивных журналистов США. После успешной
+					продажи рассказа смог уволиться и переехать в Европу, где прожил до конца жизни. До преклонного
+					возраста оставался страстным рыболовом и отличным яхтсменом. За талант рассказчика и создание сказок
+					его называли американским Андерсеном.
+				</p>
+				<p class="descbook" style="display: none;">
+					Возвращаясь из круиза роскошный океанский лайнер «Посейдон» попадает в кораблекрушение. По ошибке
+					капитана судно переворачивается верх дном и начинает тонуть. Лишь немногим удалось спастись. Попав в
+					герметичную среду ресторана корабля, в которой выплескиваются человеческие страсти и пороки, герои
+					борются за выживание.
+				</p>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Гэллико. Посейдон_1_1972_2.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Гэллико. Посейдон_1_1972_3.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+					</div>
+				</div>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Гэллико. Посейдон_2_2005_2.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Гэллико. Посейдон_2_2005_3.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+					</div>
+				</div>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Гэллико. Посейдон_3_2006_2.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Гэллико. Посейдон_3_2006_3.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pop" id="pop3">
+		<div class="cols">
+			<div class="cols-content">
+				<a onClick="zpophide()" class="close">✗</a>
+				<div class="author">
+					<div class="appearance">
+						<img src="img/authors/Соболев Леонид.jfif" alt="автор">
+					</div>
+				</div>
+				<div class="books">
+					<div class="book">
+						<img src="./img/books/Соболев Леонид_Зеленый луч.jpg" alt="книга">
+						<p>«Зеленый луч» (1954)</p>
+					</div>
+				</div>
+
+				<p class="biography" style="display: none;">
+					<span>1898-1971</span>
+					<span class="quote">
+						«По вечерам в эти квартиры входят флотские офицеры статные, высокие, маленькие или толстые, но
+						все одинаково милые, изящные и остроумные»
+					</span>
+					Сын офицера, участника русско-турецкой войны. С детства решил посвятить себя морской службе, и после
+					окончания учебы уходит на Балтийский флот. Центральной темой в творчестве было зарождение и
+					становление советского флота, при этом стремился сохранить и раскрыть романтику моря.
+				</p>
+
+				<p class="descbook" style="display: none;">
+					Остросюжетная повесть, посвященная Второй мировой войне. Команде сторожевого катера необходимо
+					доставить группу разведчиков на крымский берег. Двум морякам приходится возвращаться на катер
+					вплавь. Их единственная надежда – сигнальный зеленый луч, который можно увидеть только заплыв далеко
+					в море.
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="shade" onClick="zpophide()"></div>
+
+	<!-- Модальное окно -->
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<div class="screen-content">
+				<p class="modalText" width="100%"></p>
+			</div>
+			<span class="close_modal">✗</span>
+		</div>
+		<!-- <div id="caption"></div>  <- добавить подпись к фото -->
+	</div>
+
+	<script src="./scripts/scripts.js"></script>
+	<script src='http://code.jquery.com/jquery-1.10.1.min.js' type='text/javascript'></script>
+	<script src="res/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script type='text/javascript'>
+		function zpop(id) {
+			$(id).slideDown("fast");
+			$('.shade').slideDown("fast");
+		}
+		function zpophide() {
+			$('.shade').slideUp("fast");
+			$('.pop').slideUp("fast");
+		}
+	</script>
+
+</body>
+
+</html>

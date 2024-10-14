@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="res/style.css">
+</head>
+
+<body class="window-mark9">
+
+	<a class="back" href="index.html">
+		<img src="./img/icons8-left-2-80.png" alt="стрелка назад">
+	</a>
+	<a href="mark1.html" class="mark1_9 position"
+      ><img class="marker" src="img/marker.png"
+    /></a>
+	<a href="mark3.html" class="mark3 position"
+      ><img class="marker" src="img/marker.png"
+    /></a>
+
+	<h1 class="lbl_head">Вахтенный пост</h1>
+
+	<div class="list_name_mark9">
+		<ul>
+			<li><a class="human" onclick="zpop('#pop1')">Константин Бадигин</a></li>
+			<li><a class="human" onclick="zpop('#pop2')">Герман Мелвилл</a></li>
+			<li><a class="human" onclick="zpop('#pop3')">Павел Низовой</a></li>
+			<li><a class="human" onclick="zpop('#pop4')">Виктор Гюго</a></li>
+		</ul>
+	</div>
+
+	<div class="pop" id="pop1">
+		<div class="cols">
+			<div class="cols-content">
+				<a onClick="zpophide()" class="close">✗</a>
+				<div class="author">
+					<div class="appearance">
+						<img src="img/authors/Бадигин.jpg" alt="автор">
+					</div>
+				</div>
+				<div class="books two_books small">
+					<div class="book">
+						<img src="./img/books/Бадигин_Путь на Грумант.jpg" alt="книга">
+						<p>«Путь на Грумант» (1953)</p>
+					</div>
+					<div class="book">
+						<img src="./img/books/Бадигин_Чужие паруса.jpg" alt="книга">
+						<p>«Чужие паруса» (1959)</p>
+					</div>
+				</div>
+				<div class="films">
+					<div class="film">
+						<img src="./img/films/Бадигин. Путь на Грумант_1.jpg" alt="экранизация">
+						<p>«Море студёное» (1954)</p>
+					</div>
+				</div>
+
+				<!-- Всплывающий контент для модального окна -->
+				<p class="biography" style="display: none;">
+					<span>1910-1984</span>
+					<span class="quote">
+						«Ну-к что ж, Федор, говорят, по звездам корабли ходят, а по ямам землю знают. А мы с нашими
+						гляднями и добычу в снегу сыщем и в пургу дорогу домой найдем»
+					</span>
+					Моряк и географ, капитан дальнего плавания и полярный исследователь. Отлично зная русский Север,
+					Бадигин писал исторические романы, воспевая красоту северных морей и твердость духа русских
+					мореходов.
+				</p>
+				<p class="descbook" style="display: none;">
+					На основе реальной истории XVIII века – вынужденной шестилетней зимовке зверобоев на одном из
+					необитаемых островов Шпицбергена. Роман о мужестве и стойкости людей, выживающих в нечеловеческих
+					условиях льда и холода.
+				</p>
+
+				<p class="descbook" style="display: none;">
+					Продолжение книги «Путь на Грумант». События происходят спустя 10 лет, когда поморы могут лишиться
+					охотничьих угодий возле островов Шпицбергена. Приключения на море, интриги и любовь сплетаются в
+					борьбе за справедливость и счастье.
+				</p>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Бадигин. Путь на Грумант_2.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Бадигин. Путь на Грумант_3.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<!-- <div class="screen"><img src="./img/films/Бадигин. Путь на Грумант_4.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div> -->
+						<div class="screen"><img src="./img/films/Бадигин. Путь на Грумант_5.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Бадигин. Путь на Грумант_6.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<!-- <div class="screen"><img src="./img/films/Бадигин. Путь на Грумант_7.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div> -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pop" id="pop2">
+		<div class="cols">
+			<div class="cols-content">
+				<a onClick="zpophide()" class="close">✗</a>
+				<div class="author">
+					<div class="appearance">
+						<img src="img/authors/Менвилл.png" alt="автор">
+					</div>
+				</div>
+				<div class="books">
+					<div class="book">
+						<img src="./img/books/Мелвилл_Моби Дик.jpg" alt="книга">
+						<p>«Моби Дик, или Белый кит» (1851)</p>
+					</div>
+				</div>
+				<div class="films">
+					<div class="film">
+						<img src="./img/films/Мелвилл. Моби Дик_1957_1.jpg" alt="экранизация">
+						<p>«Моби Дик» (1957)</p>
+					</div>
+					<div class="film">
+						<img src="./img/films/Мелвилл. Моби Дик_1998_1.jpg" alt="экранизация">
+						<p>«Моби Дик» (1998)</p>
+					</div>
+					<div class="film">
+						<img src="./img/films/Мелвилл. Моби Дик_2007_1.jpg" alt="экранизация">
+						<p>«Капитан Ахав» (2007)</p>
+					</div>
+					<div class="film">
+						<img src="./img/films/Мелвилл. Моби Дик_2010_1.jpg" alt="экранизация">
+						<p>«Моби Дик: охота на монстра» (2010)</p>
+					</div>
+					<div class="film">
+						<img src="./img/films/Мелвил. Моби Дик_2011_1.webp" alt="экранизация">
+						<p>«Моби Дик» (2011)</p>
+					</div>
+				</div>
+				<!-- Всплывающий контент для модального окна -->
+				<p class="biography" style="display: none;">
+					<span>1819-1891</span>
+					<span class="quote">
+						«Люди сухопутных профессий в большинстве своём столь несведущи относительно самых очевидных и
+						осязаемых чудес света»
+					</span>
+					Американский писатель и моряк. Был юнгой на пакетботе. В 1841 году поступил на китобойное судно
+					«Акушнет», плавающее в Южные моря. После побега с корабля и плена у туземцев вернулся на родину,
+					полностью посвятив себя писательскому делу.
+				</p>
+				<p class="descbook" style="display: none;">
+					Команда китобойного судна отправляется в рейс под руководством капитана Ахава, который одержим идеей
+					поймать белого кита. Роман о ненасытной жажде желаемого, борьбе с могуществом природного мира.
+				</p>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_1957_2.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_1957_3.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_1957_4.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_1957_5.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<!-- <div class="screen"><img src="./img/films/Мелвилл. Моби Дик_1957_6.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div> -->
+
+					</div>
+				</div>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_1998_2.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_1998_3.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_1998_4.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_1998_5.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+					</div>
+				</div>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Мелвил. Моби Дик_2007_1.webp" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_2007_2.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+					</div>
+				</div>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_2010_2.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_2010_3.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_2010_4.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвилл. Моби Дик_2010_5.jpg" alt="кадр из фильма"
+							loading="lazy">
+					</div>
+					</div>
+				</div>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Мелвил. Моби Дик_2011_2.webp" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвил. Моби Дик_2011_3.webp" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвил. Моби Дик_2011_4.webp" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Мелвил. Моби Дик_2011_5.webp" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="pop" id="pop3">
+		<div class="cols">
+			<div class="cols-content">
+				<a onClick="zpophide()" class="close">✗</a>
+				<div class="author">
+					<div class="appearance">
+						<img src="img/authors/Низовой.jpg" alt="автор">
+					</div>
+				</div>
+				<div class="books">
+					<div class="book">
+						<img src="./img/books/Низовой_Океан.jpg" alt="книга">
+						<p>«Океан» (1929)</p>
+					</div>
+				</div>
+
+				<!-- Всплывающий контент для модального окна -->
+				<p class="biography" style="display: none;">
+					<span>1877-1940</span>
+					Советский писатель. Помимо литературы занимался живописью. Много лет дружил с другим известным
+					автором - Алексеем Новиковым-Прибоем, посвятив ему один из романов.
+				</p>
+				<p class="descbook" style="display: none;">
+					Роман о тяжелой жизни на берегу Северного Ледовитого океана, в которой сплетаются отношения людей и
+					природы.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="pop" id="pop4">
+		<div class="cols">
+			<div class="cols-content">
+				<a onClick="zpophide()" class="close">✗</a>
+				<div class="author">
+					<div class="appearance">
+						<img src="img/authors/Гюго.jpg" alt="автор">
+					</div>
+				</div>
+				<div class="books">
+					<div class="book">
+						<img src="./img/books/Гюго_Труженики моря.jpg" alt="книга">
+						<p>«Труженики моря» (1866)</p>
+					</div>
+				</div>
+				<div class="films">
+					<div class="film">
+						<img src="./img/films/Гюго. Труженики моря.webp" alt="экранизация">
+						<p>«Труженики моря», сериал (1986)</p>
+					</div>
+				</div>
+
+				<!-- Всплывающий контент для модального окна -->
+				<p class="biography" style="display: none;">
+					<span>1802-1885</span>
+					<span class="quote">
+						«Вода податлива потому, что её нельзя сжать. Она ускользает при давлении. Волна — воплощение
+						свободы»
+					</span>
+					Писатель, ставший главной фигурой французского романтизма в литературе. Сын генерала наполеоновской
+					армии и дочери судовладельца, он с раннего детства много путешествовал. После государственного
+					переворота 1851 года бежит на Нормандские острова. Именно под впечатлением от жизни на острове
+					Гернси Гюго пишет роман «Труженики моря».
+				</p>
+				<p class="descbook" style="display: none;">
+					Роман посвящен «суровому острову, гордому приморскому народу и свободолюбивым скалам». Все буйство
+					красок моря, сильные характеры матросов, капитанов, рыбаков подчеркивают страстную борьбу героев
+					Гюго с жизненными трудностями.
+				</p>
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Гюго. Труженики моря_1.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Гюго. Труженики моря_2.webp" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Гюго. Труженики моря_3.webp" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+						<div class="screen"><img src="./img/films/Гюго. Труженики моря_4.jpg" alt="кадр из фильма"
+								loading="lazy">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="shade" onClick="zpophide()"></div>
+
+	<!-- Модальное окно -->
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<div class="screen-content">
+				<p class="modalText" width="100%"></p>
+			</div>
+			<span class="close_modal">✗</span>
+		</div>
+		<!-- <div id="caption"></div>  <- добавить подпись к фото -->
+	</div>
+
+	<script src="./scripts/scripts.js"></script>
+	<script src='http://code.jquery.com/jquery-1.10.1.min.js' type='text/javascript'></script>
+	<script src="res/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script type='text/javascript'>
+		function zpop(id) {
+			$(id).slideDown("fast");
+			$('.shade').slideDown("fast");
+		}
+		function zpophide() {
+			$('.shade').slideUp("fast");
+			$('.pop').slideUp("fast");
+		}
+	</script>
+
+</body>
+
+</html>

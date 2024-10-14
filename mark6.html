@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="res/style.css" />
+</head>
+
+<body class="window-mark6">
+
+  <a class="back" href="index.html">
+    <div><img src="./img/icons8-left-2-80.png" alt="стрелка назад"></div>
+    <!-- <p>Назад</p> -->
+  </a>
+
+  <h1 class="lbl_head">Дамы на корабле</h1>
+
+  <div class="list_name list_name_mark6">
+    <ul>
+      <li><a class="human" onclick="zpop('#pop1')">Жоржи Амаду</a></li>
+      <li><a class="human" onclick="zpop('#pop2')">Вилис Лацис</a></li>
+      <li><a class="human" onclick="zpop('#pop3')">Валентин Пикуль</a></li>
+      <li><a class="human" onclick="zpop('#pop4')">Константин Паустовский</a></li>
+    </ul>
+  </div>
+
+  <div class="pop" id="pop1">
+    <div class="cols">
+      <div class="cols-content">
+        <a onClick="zpophide()" class="close">✗</a>
+        <div class="author">
+          <div class="appearance">
+            <img src="img/authors/Амаду.jfif" alt="автор">
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="./img/books/Амаду_Мертвое море.jpg" alt="книга">
+            <p>«Мертвое море» (1936)</p>
+          </div>
+        </div>
+        <div class="films">
+          <div class="film">
+            <img src="./img/films/Амаду. Мертвое море_1.jfif" alt="экранизация">
+            <p>«Берег мечты» (2001)</p>
+          </div>
+        </div>
+
+        <!-- Всплывающий контент для модального окна -->
+        <p class="biography" style="display: none;">
+          <span>1912-2001</span>
+          <span class="quote">
+            «Его судьбой было море, и это была героическая судьба.»
+          </span>
+          Бразильский писатель. Родился и провел все свое детство в штате Баия, что повлияло на его будущее творчество.
+          В своих произведениях воспевал родной край, для которого характерны тропическая экзотика и африканское начало.
+          Творчество писателя относится к латиноамериканскому магическому реализму.
+        </p>
+
+        <p class="descbook" style="display: none;">
+          Гумо, получивший в наследство шлюп и тяжелую профессию моряка, влюбляется в самую красивую женщину, борется со
+          стихией и наслаждается радостью жизни, какие бы испытания не выпадали на его долю.
+        </p>
+
+        <div class="filmscreen" style="display: none;">
+          <div class="film-container">
+            <div class="screen"><img src="./img/films/Амаду. Мертвое море_2.jpg" alt="кадр из фильма" loading="lazy">
+            </div>
+            <div class="screen"><img src="./img/films/Амаду. Мертвое море_3.jpg" alt="кадр из фильма" loading="lazy">
+            </div>
+            <div class="screen"><img src="./img/films/Амаду. Мертвое море_4.jpg" alt="кадр из фильма" loading="lazy">
+            </div>
+            <div class="screen"><img src="./img/films/Амаду. Мертвое море_5.jpg" alt="кадр из фильма" loading="lazy">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="pop" id="pop2">
+    <div class="cols">
+      <div class="cols-content">
+        <a onClick="zpophide()" class="close">✗</a>
+        <div class="author">
+          <div class="appearance">
+            <img src="img/authors/Лацис.png" alt="автор">
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="./img/books/Лацис_Семья Зитаров.webp" alt="книга">
+            <p>«Семья Зитаров» (1936-1938)</p>
+          </div>
+        </div>
+        <div class="films">
+          <div class="film">
+            <img src="./img/films/Лацис. Семья Зитаров_1.webp" alt="экранизация">
+            <p>«Семья Зитаров» (1990)</p>
+          </div>
+        </div>
+
+        <!-- Всплывающий контент для модального окна -->
+        <p class="biography" style="display: none;">
+          <span>1904-1966</span>
+          <span class="quote">
+            «Как странно устроен мир! Налетают бури, подымают на море волны, проносятся над ними и рассеиваются
+            вдали. А море остается. И ни одной капли не теряет оно из своих глубин…»
+          </span>
+          Латышский писатель. Родился в семье портового рабочего. После военной эвакуации вернулся в 1921 в Латвию.
+          Первые годы после возвращения работал портовым грузчиком, рыбаком и кочегаром парохода, в свободное время
+          писал и публиковался в журналах. С 1930-х начинает создавать крупные произведения, став самым печатающимся
+          писателем страны.
+        </p>
+
+        <p class="descbook" style="display: none;">
+          Семейная сага о латышском роде Зитаров. На фоне потери и обретения родины из-за Первой мировой войны, члены
+          огромной семьи сталкиваются в противоборстве разных характеров.
+        </p>
+
+        <div class="filmscreen" style="display: none;">
+          <div class="film-container">
+            <div class="screen"><img src="./img/films/Лацис. Семья Зитаров_2.jpg" alt="кадр из фильма" loading="lazy">
+            </div>
+            <div class="screen"><img src="./img/films/Лацис. Семья Зитаров_3.jpg" alt="кадр из фильма" loading="lazy">
+            </div>
+            <!-- <div class="screen"><img src="./img/films/Лацис. Семья Зитаров_4.jpg" alt="кадр из фильма" loading="lazy">
+            </div> -->
+            <div class="screen"><img src="./img/films/Лацис. Семья Зитаров_5.jpg" alt="кадр из фильма" loading="lazy">
+            </div>
+            <div class="screen"><img src="./img/films/Лацис. Семья Зитаров_6.jpg" alt="кадр из фильма" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pop" id="pop3">
+    <div class="cols">
+      <div class="cols-content">
+        <a onClick="zpophide()" class="close">✗</a>
+        <div class="author">
+          <div class="appearance">
+            <img src="img/authors/Пикуль.jpg" alt="автор">
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="./img/books/Пикуль_Три возраста Окини-сан.jpeg" alt="книга">
+            <p>«Три возраста Окини-сан» (1986)</p>
+          </div>
+        </div>
+
+        <p class="biography" style="display: none;">
+          <span>1928-1990</span>
+          <span class="quote">
+            «Корабли всегда знают лицо своей смерти — вот оно, это смутное лицо забортной воды, что нехотя вскипает под
+            натиском тупого форштевня»
+          </span>
+          Сын военного инженера на судостроительном заводе. Во время Второй мировой войны сбежал из эвакуации в школу
+          юнг. До конца войны прослужил на эскадронном миноносце Северного флота. После войны решил посвятить себя
+          литературному творчеству.
+        </p>
+
+        <p class="descbook" style="display: none;">
+          Входит в трилогию «Оборона». Семейная сага на фоне главных исторических событий русской истории начала XX
+          века.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pop" id="pop4">
+    <div class="cols">
+      <div class="cols-content">
+        <a onClick="zpophide()" class="close">✗</a>
+        <div class="author horizontal">
+          <div class="appearance">
+            <img src="img/authors/Паустовский.webp" alt="автор">
+          </div>
+        </div>
+        <div class="books">
+          <div class="book">
+            <img src="./img/books/Паустовский_Романтики.JPG" alt="книга">
+            <p>«Романтики» (1923)</p>
+          </div>
+        </div>
+
+        <!-- Всплывающий контент для модального окна -->
+        <p class="biography" style="display: none;">
+          <span>1892-1968</span>
+          <span class="quote">
+            «Я вытащил из-под графина расписание пароходных рейсов – лист желтой глянцевой бумаги – и написал на
+            обороте:
+            «Быть бродягой, подбирать все, что попадется на дороге, – туман, лица людей с морщинами страданий и
+            болезней,
+            стихи, никем не читаемые, – и думать об этом с наслаждением, находить образы, непривычные, как во сне, и
+            начать вторую жизнь вот на этих листах бумаги.»
+          </span>
+          Советский писатель, получивший мировое признание. Родом из польской семьи, с детства восхищался воображаемыми
+          мирами. В Первую мировую войну был санитаром, во Вторую мировую - военным корреспондентом. Много путешествовал
+          по России.
+        </p>
+
+        <p class="descbook" style="display: none;">
+          Первый роман писателя, опубликованный лишь в 30-х годах. Романтическая проза тонкой психологии, в которой
+          отражены три периода жизни главного героя, его чувств, настроения и переживаний.
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="shade" onClick="zpophide()"></div>
+
+  <!-- Модальное окно -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="screen-content">
+        <p class="modalText" width="100%"></p>
+      </div>
+      <span class="close_modal">✗</span>
+    </div>
+    <!-- <div id="caption"></div>  <- добавить подпись к фото -->
+  </div>
+
+  <script src="./scripts/scripts.js"></script>
+  <script src='http://code.jquery.com/jquery-1.10.1.min.js' type='text/javascript'></script>
+  <script src="res/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <script type='text/javascript'>
+    function zpop(id) {
+      $(id).slideDown("fast");
+      $('.shade').slideDown("fast");
+    }
+    function zpophide() {
+      $('.shade').slideUp("fast");
+      $('.pop').slideUp("fast");
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Helios";
+  src:
+    url("./fonts/HeliosCondBlackC.otf") format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "FuturaFuturis";
+  src: 
+    url("./fonts/FuturaFuturisLightC.otf") format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura";
+  src: local("Bebas Neue Bold"), local("BebasNeueBold"),
+    url("./fonts/bebasneuebold.woff2") format("woff2"),
+    url("./fonts/bebasneuebold.woff") format("woff"),
+    url("./fonts/bebasneuebold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

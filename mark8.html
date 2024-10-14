@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="res/style.css" />
+
+  </head>
+
+  <body class="window-mark8">
+
+    <a class="back" href="index.html">
+      <div><img src="./img/icons8-left-2-80.png" alt="стрелка назад"></div>
+    </a>
+
+    <h1 class="lbl_head">Клуб знаменитых капитанов</h1>
+
+    <div class="list_name_mark8">
+      <ul>
+        <li><a class="human" onclick="zpop('#pop1')">Алексей Новиков-Прибой</a></li>
+        <li><a class="human" onclick="zpop('#pop2')">Джек Лондон</a></li>
+      </ul>
+    </div>
+  
+    <div class="pop" id="pop1">
+      <div class="cols">
+        <div class="cols-content">
+          <a onClick="zpophide()" class="close">✗</a>
+          <div class="author">
+            <div class="appearance">
+              <img src="img/authors/Новиков-Прибой.jpg" alt="автор">
+            </div>
+          </div>
+          <div class="books">
+            <div class="book">
+              <img src="./img/books/Новиков-Прибой_Капитан первого ранга.jpg" alt="книга">
+              <p>«Капитан первого ранга» (неоконченный роман)</p>
+            </div>
+          </div>
+          <div class="films">
+            <div class="film">
+              <img src="./img/films/Новиков-Прибой. Капитан первого ранга_1.jpg" alt="экранизация">
+              <p>«Капитан первого ранга» (1959)</p>
+            </div>
+          </div>
+  
+          <!-- Всплывающий контент для модального окна -->
+          <p class="biography" style="display: none;">
+            <span>1877-1944</span>
+            <span class="quote">
+              «В этом сражении море выдвинуло против океана острова, точно неприступные крепости, а проливы между ними были ареной ожесточенной схватки»
+            </span>
+            Происходил из крестьянской семьи, служил матросом Балтийского флота. Участвовал в знаменитом Цусимском сражении, после которого попал в японский плен. Во время скитаний в эмиграции жил год на Капри у Максима Горького.
+          </p>
+          <p class="descbook" style="display: none;">
+            История становления сильного и незаурядного характера среди политического смерча, охватившего страну.
+          </p>
+  
+          <div class="filmscreen" style="display: none;">
+            <div class="film-container">
+              <div class="screen"><img src="./img/films/Новиков-Прибой. Капитан первого ранга_2.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Новиков-Прибой. Капитан первого ранга_3.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Новиков-Прибой. Капитан первого ранга_4.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Новиков-Прибой. Капитан первого ранга_5.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <!-- <div class="screen"><img src="./img/films/Новиков-Прибой. Капитан первого ранга_6.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="pop" id="pop2">
+      <div class="cols">
+        <div class="cols-content">
+          <a onClick="zpophide()" class="close">✗</a>
+          <div class="author">
+            <div class="appearance">
+              <img src="img/authors/Лондон.png" alt="автор">
+            </div>
+          </div>
+          <div class="books">
+            <div class="book custom">
+              <img src="./img/books/Лондон_Морской волк.jpg" alt="книга">
+              <p>«Морской волк» (1904)</p>
+            </div>
+          </div>
+          <div class="films">
+            <div class="film">
+              <img src="./img/films/Лондон. Морской волк_11.webp" alt="экранизация">
+              <p>«Морской волк» (1941)</p>
+            </div>
+            <div class="film">
+              <img src="./img/films/Лондон. Морской волк_1.jpg" alt="экранизация">
+              <p>«Морской волк» (1990)</p>
+            </div>
+            <div class="film">
+              <img src="./img/films/Лондон. Морской волк_6.jpg" alt="экранизация">
+              <p>«Морской волк» (2009)</p>
+            </div>
+          </div>
+          <!-- Всплывающий контент для модального окна -->
+          <p class="biography" style="display: none;">
+            <span>1876-1916</span>
+            <span class="quote">
+              «А там будь что будет. Мачты выдержат, и нам с вами тоже придется выдержать, хотя будет несладко!»
+            </span>
+            Американский писатель, создатель приключенческих романов и рассказов. Был самым высокооплачиваемым автором Америки. Из-за трудного детства начал рано работать – был и разносчиком газет, и фабричным рабочим, и «устричным пиратом» (нелегально добывал устриц). Позже устроился матросом на промысловую шхуну, на которой добрался до берегов Японии и Берингова моря.
+          </p>
+          <p class="descbook" style="display: none;">
+            Мягкий и интеллигентный Хэмфри Ван Вейден попадает на корабль, где правит умный, но жестокий капитан Волк Ларсен. История становления личности, перед которой стоит цель закалиться, но не сломаться.
+          </p>
+          <div class="filmscreen" style="display: none;">
+            <div class="film-container">
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_12.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_13.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_14.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_15.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="filmscreen" style="display: none;">
+            <div class="film-container">
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_2.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_3.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_4.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_5.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="filmscreen" style="display: none;">
+            <div class="film-container">
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_7.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_8.jfif" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_9.jfif" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+              <div class="screen"><img src="./img/films/Лондон. Морской волк_10.jpg" alt="кадр из фильма"
+                  loading="lazy">
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  
+    <div class="shade" onClick="zpophide()"></div>
+  
+    <!-- Модальное окно -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="screen-content">
+          <p class="modalText" width="100%"></p>
+        </div>
+        <span class="close_modal">✗</span>
+      </div>
+      <!-- <div id="caption"></div>  <- добавить подпись к фото -->
+    </div>
+  
+    <script src="./scripts/scripts.js"></script>
+    <script src='http://code.jquery.com/jquery-1.10.1.min.js' type='text/javascript'></script>
+    <script src="res/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script type='text/javascript'>
+      function zpop(id) {
+        $(id).slideDown("fast");
+        $('.shade').slideDown("fast");
+      }
+      function zpophide() {
+        $('.shade').slideUp("fast");
+        $('.pop').slideUp("fast");
+      }
+    </script>
+  
+  </body>
+</html>

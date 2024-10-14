@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="res/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body class="window-mark14">
+	<a class="back" href="index.html">
+		<div><img src="./img/icons8-left-2-80.png" alt="стрелка назад"></div>
+	</a>
+	<h1 class="lbl_head">Клуб одиночек</h1>
+
+	<div class="list_name list_name_mark14">
+		<ul>
+			<li><a class="human" onclick="zpop('#pop1')">Эрнест Хемингуэй</a></li>
+			<li><a class="human" onclick="zpop('#pop2')">Джеймс Олдридж</a></li>
+			<li><a class="human" onclick="zpop('#pop3')">Робер Мерль</a></li>
+		</ul>
+	</div>
+
+	<div class="pop" id="pop1">
+		<div class="cols">
+			<div class="cols-content">
+				<a onClick="zpophide()" class="close">✗</a>
+				<div class="author">
+					<div class="appearance">
+						<img src="img/authors/Хемингуэй.jpg" alt="автор">
+					</div>
+				</div>
+				<div class="books">
+					<div class="book">
+						<img src="./img/books/Хемингуэй_Острова в океане.jpg" alt="книга">
+						<p>«Острова в океане» (1970)</p>
+					</div>
+				</div>
+				<div class="films">
+					<div class="film">
+						<img src="./img/films/Хемингуэй. Острова в океане_1.webp" alt="книга">
+						<p>«Острова в океане»</p>
+					</div>
+				</div>
+
+				<!-- Всплывающий контент для модального окна -->
+				<p class="biography" style="display: none;">
+					<span>1899-1961</span>
+
+					<span class="quote">«География – слабое средство против того, что тебя гложет»</span>
+
+					Американский писатель, лауреат Пулитцеровской и Нобелевской премий. Будучи родом из
+					привилегированного пригорода Чикаго решился посвятить свою жизнь писательской карьере. Стал одним из
+					главных авторов-летописцев «потерянного поколения» (людей, прошедших Первую мировую войну).
+				</p>
+				<p class="descbook" style="display: none;">Последний и незавершенный роман Хемингуэя. Трагическая
+					история художника-мариниста, полюбившего морскую глубину.
+				</p>
+
+				<div class="filmscreen" style="display: none;">
+					<div class="film-container">
+						<div class="screen"><img src="./img/films/Хемингуэй. Острова в океане_2.jpg"
+								alt="кадр из фильма">
+						</div>
+						<div class="screen"><img src="./img/films/Хемингуэй. Острова в океане_3.jpg"
+								alt="кадр из фильма">
+						</div>
+						<div class="screen"><img src="./img/films/Хемингуэй. Острова в океане_4.jpg"
+								alt="кадр из фильма">
+						</div>
+						<div class="screen"><img src="./img/films/Хемингуэй. Острова в океане_5.jpg"
+								alt="кадр из фильма">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="pop" id="pop2">
+		<div class="cols">
+			<div class="cols-content">
+				<a onClick="zpophide()" class="close">✗</a>
+				<div class="author">
+					<div class="appearance">
+						<img src="img/authors/Олдридж.webp" alt="автор">
+					</div>
+				</div>
+				<div class="books">
+					<div class="book">
+						<img src="./img/books/Олдридж_Морской орел.jpg" alt="книга">
+						<p>«Морской орел» (1944)</p>
+					</div>
+				</div>
+
+				<p class="biography" style="display: none;">
+					<span>1918-2015</span>
+					<span class="quote">
+						«Ни ветер, ни море не могли победить его. Он бил их выдержкой. От его выдержки теперь зависело все.»
+					</span>
+					Английский писатель и общественный деятель австралийского происхождения. Работал военным
+					корреспондентом.
+				</p>
+				<p class="descbook" style="display: none;">
+					Трое мужчин оказываются на острове Крит. Роман о войне, как о
+					стихийной силе природе. О морской буре, которая заставит пройти героев до конца лабиринта.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="pop" id="pop3">
+		<div class="cols">
+			<div class="cols-content">
+				<a onClick="zpophide()" class="close">✗</a>
+				<div class="author horizontal">
+					<div class="appearance">
+						<img src="img/authors/Мерль.jpg" alt="автор">
+					</div>
+				</div>
+				<div class="books">
+					<div class="book">
+						<img src="./img/books/Мерль_Остров.jpeg" alt="книга">
+						<p>«Остров» (1962)</p>
+					</div>
+				</div>
+
+				<p class="biography" style="display: none;">
+					<span>1908-2004</span>
+					<span class="quote">
+						«Мы не боимся бури, а таитяне не боятся акул. Храбрость, в сущности, — вопрос
+						привычки.»
+					</span>
+					Французский писатель. Успешно занимался английским языком, английской и американской литературой,
+					получил престижную премию за роман о трагедии Дюнкерка, вложив в него собственный опыт
+					военнопленного.
+				</p>
+				<p class="descbook" style="display: none;">На основе реальных событий. После мятежа на корабле «Баунти»
+					моряки решают найти необитаемый остров, где смогут построить новую жизнь. Перед долгой дорогой
+					«Баунти» причаливает к берегам Таити в поисках мужчин для обслуживания судна и женщин.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="shade" onClick="zpophide()"></div>
+
+	<!-- Модальное окно -->
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<div class="screen-content">
+				<p class="modalText" width="100%"></p>
+			</div>
+			<span class="close_modal">✗</span>
+		</div>
+		<!-- <div id="caption"></div>  <- добавить подпись к фото -->
+	</div>
+
+	<script src="./scripts/scripts.js"></script>
+	<script src='http://code.jquery.com/jquery-1.10.1.min.js' type='text/javascript'></script>
+	<script src="res/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script type='text/javascript'>
+		function zpop(id) {
+			$(id).slideDown("fast");
+			$('.shade').slideDown("fast");
+		}
+		function zpophide() {
+			$('.shade').slideUp("fast");
+			$('.pop').slideUp("fast");
+		}
+	</script>
+
+</body>
+
+</html>
